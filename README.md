@@ -6,12 +6,11 @@ ssh -l <aau email> ai-fe02.srv.aau.dk
   
 then you have to bulid your singularity container. 
 
-Outdated
-(Run this command for setup
-srun singularity build --fakeroot tensorflow_keras.sif Singularity
+
+srun singularity build --fakeroot tensorflow_keras.sif singularitySetupTest
 
 if out of memory run instead
-srun --mem 64G singularity build --fakeroot tensorflow_keras.sif Singularity)
+srun --mem 64G singularity build --fakeroot tensorflow_keras.sif singularitySetupTest
 
 
 tutorials:
