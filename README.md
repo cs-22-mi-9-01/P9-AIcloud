@@ -11,5 +11,6 @@ srun --mem 64G singularity build --fakeroot tensorflow_keras.sif Singularity
 tutorials:
 AAUs own tutorial:
 https://aicloud-docs.claaudia.aau.dk/introduction/
+
 This one is quite in depth: 
 https://git.its.aau.dk/CLAAUDIA/docs_aicloud/src/branch/master/aicloud_slurm#user-content-slurm-basics
