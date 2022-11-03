@@ -1,6 +1,10 @@
 # P9-AIcloud
 Just for the AI-cloud
 
+First log in with this
+ssh -l <aau email> ai-fe02.srv.aau.dk
+  
+then you have to bulid your singularity container. 
 
 Outdated
 (Run this command for setup
