@@ -1,4 +1,4 @@
-Lawyer/Attorney (Germany)	Arrest, detain, or charge with legal action	Citizen (Germany)	2014-02-12
+﻿Lawyer/Attorney (Germany)	Arrest, detain, or charge with legal action	Citizen (Germany)	2014-02-12
 Abdullah Abdullah	Reduce or break diplomatic relations	Election Commission (Afghanistan)	2014-06-18
 Citizen (India)	Threaten	Company - Owner or Operator (India)	2014-06-20
 Central Intelligence Agency	Arrest, detain, or charge with legal action	Citizen (India)	2014-06-04
@@ -146,7 +146,7 @@ Head of Government (Ukraine)	Make statement	Lawmaker (Ukraine)	2014-07-28
 Police (Australia)	Make optimistic comment	Citizen (Australia)	2014-04-11
 France	Consult	China	2014-04-08
 Citizen (Malaysia)	Make empathetic comment	Malaysia	2014-05-12
-Horacio González	Make statement	Government (Argentina)	2014-09-13
+Horacio Gonzalez	Make statement	Government (Argentina)	2014-09-13
 Defense / Security Ministry (United States)	Engage in negotiation	Defense / Security Ministry (Ukraine)	2014-03-15
 Raj Thackeray	Criticize or denounce	Aam Aadmi Party	2014-01-09
 Military (France)	Mobilize or increase armed forces	France	2014-09-25
