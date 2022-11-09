@@ -148,7 +148,7 @@ def train(task ='LinkPrediction',
           batch=512,
           lr=0.1,
           max_epoch=5000,
-          min_epoch=250,
+          min_epoch=500,
           gamma=1,
           L = 'L1',
           negsample_num=10,
@@ -389,6 +389,7 @@ def train(task ='LinkPrediction',
             if mean_rr>=mrr_std:
                 
                 torch.save(model.state_dict(), os.path.join(path, 'params.pkl'))
+                torch.save(model, os.path.join(path, 'fullmodel'))
                 mrr_std = mean_rr
                 patience = 0
 
