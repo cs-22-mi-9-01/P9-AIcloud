@@ -389,12 +389,10 @@ def train(task ='LinkPrediction',
             if mean_rr>=mrr_std:
                 
                 torch.save(model.state_dict(), os.path.join(path, 'params.pkl'))
-                #torch.save(model, os.path.join(path, 'fullmodel'))
+                torch.save(model, os.path.join(path, 'fullmodel'))
                 mrr_std = mean_rr
                 patience = 0
         
-        if epoch == max_epoch:
-            torch.save(model, os.path.join(path, 'fullmodelcomplete'))
 
 
 
